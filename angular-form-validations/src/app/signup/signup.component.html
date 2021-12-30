@@ -1,0 +1,80 @@
+
+<div class = "jumbotron">
+
+<div class = "container">
+    <div class = "row">
+        <div class = "col-md-8 mx-auto">
+            <div class = "card">
+                <div class = "card-header">
+                    <h1>Template Registration Form</h1><br>
+                    </div>
+                    <div class = "card-body">
+<form #contactForm="ngForm" (ngSubmit)="submit(contactForm.value)">
+     
+  <div class="form-group">
+      <label for="firstName">First Name</label>
+      <input required minlength="3" maxlength="10" ngModel name="firstName" type="text" #firstName="ngModel" class="form-control" id="firstName">
+      <div class="alert alert-danger" *ngIf="firstName.touched && !firstName.valid">
+          <div *ngIf="firstName.errors && firstName.errors['required']">First Name is required.</div>
+          <div *ngIf="firstName.errors && firstName.errors['minlength']">First Name is minimum {{ firstName.errors && firstName.errors['minlength'].requiredLength }} character.</div>
+          <div *ngIf="firstName.errors && firstName.errors['maxlength']">First Name is maximum 10 character.</div>
+      </div>
+  </div>
+     
+  <div class="form-group">
+      <label for="lastName">Last Name</label>
+      <input required ngModel name="lastName" type="text" #lastName="ngModel" class="form-control" id="lastName">
+      <div class="alert alert-danger" *ngIf="lastName.touched && !lastName.valid">
+          Last Name is required.
+      </div>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input required ngModel name="email" type="text" #email="ngModel" class="form-control" id="email">
+    <div class="alert alert-danger" *ngIf="email.touched && !email.valid">
+        Email is required.
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="pwd">Password</label>
+    <input required ngModel name="pwd" type="password" #pwd="ngModel" class="form-control" id="pwd">
+    <div class="alert alert-danger" *ngIf="pwd.touched && !pwd.valid">
+        Password is required.
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="mobile">Mobile No.</label>
+    <input required ngModel name="mobile" type="text" #mobile="ngModel" class="form-control" id="mobile">
+    <div class="alert alert-danger" *ngIf="mobile.touched && !mobile.valid">
+        Mobile No. is required.
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="dob">Date of Birth</label>
+    <input required ngModel name="dob" type="date" #dob="ngModel" class="form-control" id="dob">
+    <div class="alert alert-danger" *ngIf="dob.touched && !dob.valid">
+        Date of birth is required.
+    </div>
+</div>
+     
+  <div class="form-group">
+      <label for="add">Address</label>
+      <textarea required ngModel #add="ngModel" name="add" id="add"  class="form-control"></textarea>
+      <div class="alert alert-danger" *ngIf="add.touched && !add.valid">
+          Address is required.
+      </div>
+  </div>
+      
+  <button class="btn btn-primary" type="submit" [class.disabled]="!contactForm.valid">Register</button>
+    
+</form>
+</div>
+    </div>
+</div>
+</div>
+</div>
+</div>

@@ -1,0 +1,46 @@
+[
+    {
+        "id": "1",
+        "name": "Samrat",
+        "email": "samratnilesh@gmail.com",
+        "gender": "male"
+    },
+    {
+        "id": "2",
+        "name": "Tanmay Kumar",
+        "email": "tanmaykumar@gmail.com",
+        "gender": "male"
+    },
+    {
+        "id": "3",
+        "name": "Rajan Singh",
+        "email": "rajansingh@gmail.com",
+        "gender": "male"
+    },
+    {
+        "id": "4",
+        "name": "Yash Kumar",
+        "email": "ykm@gmail.com",
+        "gender": "male"
+    },
+    {
+        "id": "5",
+        "name": "Kishan kumar",
+        "email": "kbhardwaj@gmail.com",
+        "gender": "male"
+    },
+
+    {
+        "id": "6",
+        "name": "Vivek Kumar",
+        "email": "vivekbhardwaj@gmail.com",
+        "gender": "male"
+    },
+
+    {
+        "id": "7",
+        "name": "Sushant dev",
+        "email": "sushantdev@gmail.com",
+        "gender": "male"
+    }
+]

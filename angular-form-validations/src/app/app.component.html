@@ -1,0 +1,57 @@
+<!doctype = "html">
+<html>
+    <head >
+        <meta charset = "UTF-8" />
+        <meta name = "viewpoint" content = "width=device-width, initial-scale=1">
+        <title> Template and Reactive Form </title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        
+
+    </head>
+        <nav class = "navbar navbar-expand-sm bg-dark navbar-dark">
+            <a class = "navbar-brand" href= "app.component.html">Home</a>
+            <button class = "navbar-toggler" type = "button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class = "navbar-toggler-icon"></span>
+            </button>
+            
+            <div class ="collapse navbar-collapse" id = "collapseNavbar">
+            <ul class="navbar-nav">
+            <li class = navbar-nav>
+            <a class = "nav-link" routerLink= "login" >Reactive Registration Form</a>
+            </li>
+            
+            </ul>
+            </div>
+            <div class ="collapse navbar-collapse" id = "collapseNavbar">
+              <ul class="navbar-nav">
+              <li class = navbar-nav>
+              <a class = "nav-link" routerLink= "signup" >Template Registration Form </a>
+              </li>
+              
+            </ul>
+            </div>
+            </nav>
+
+            <body style = "background-color: antiquewhite;" >
+
+            <header class = "page-header headercontainer-fluid" align = "center">
+
+              <div class="description">
+                  <h1>Welcome to the Form Home Page!</h1><br>
+                  <p>This is the homepage of The Reactive  Form and Template Form. From here you can navigate to different different form pages. </p><br><br><br><br>
+                  
+              </div>
+          </header>
+
+
+            
+          <router-outlet></router-outlet><br>
+          </body>
+
+        </html>
+
+
+        

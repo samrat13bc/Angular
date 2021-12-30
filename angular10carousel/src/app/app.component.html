@@ -1,0 +1,45 @@
+
+<div class="container-fluid">
+  <h1>
+  Angular Image slider
+  </h1>
+  <h2>Using angular Bootstrap </h2>
+  <ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+      <div class="wrapper">
+        <img [src]="images[0]" alt="Random first slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>First Slide</h3>
+        <p> Angular  Image Example </p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="wrapper">
+        <img [src]="images[1]" alt="Random second slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>Second Slide</h3>
+        <p> Check out </p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="wrapper">
+        <img [src]="images[2]"  alt="Random third slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>Third Slide</h3>
+        <p>Angualr latest...</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="wrapper">
+        <img [src]="images[0]"  alt="Random fourth slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>Fourth Slide</h3>
+        <p>Angualr latest...</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  </div>

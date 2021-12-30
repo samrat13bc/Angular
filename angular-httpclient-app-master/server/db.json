@@ -1,0 +1,46 @@
+{
+  "employees": [
+    {
+      "name": "Samrat",
+      "email": "samratnilesh@gmail.com",
+      "phone": "8340675267",
+      "id": 1
+    },
+    {
+      "name": "Rajan Singh",
+      "email": "rajanparihar827991@gmail.com",
+      "phone": "8279915586",
+      "id": 2
+    },
+    {
+      "name": "Yash Kumar",
+      "email": "yashmehta@gmail.com",
+      "phone": "790865467",
+      "id": 3
+    },
+    {
+      "name": "Tanmay Kumar",
+      "email": "tanmaykkumar@gmail.com",
+      "phone": "6200509087",
+      "id": 4
+    },
+    {
+      "name": "Kishan Bhardwaj",
+      "email": "kbhardwaj978@gmail.com",
+      "phone": "7898765467",
+      "id": 5
+    },
+    {
+      "name": "Sushant Dev",
+      "email": "sdev@gmail.com",
+      "phone": "9876566787",
+      "id": 6
+    },
+    {
+      "name": "Vivek Kumar",
+      "email": "vkbhardwaj@gmail.com",
+      "phone": "9834567654",
+      "id": 7
+    }
+  ]
+}
